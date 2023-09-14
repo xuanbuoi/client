@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: rgb(243, 244, 246);
+}
+
+@layer components {
+  .show {
+    @apply group-hover:inline-block group-hover:absolute group-hover:z-10 group-hover:py-1 group-hover:px-4 group-hover:text-xs group-hover:font-medium group-hover:text-white group-hover:bg-black group-hover:rounded-lg group-hover:shadow-sm group-hover:top-[calc(100%+5px)] group-hover:-right-2 group-hover:animate-fade-up group-hover:before:w-0 group-hover:before:h-0 group-hover:before:border-solid group-hover:before:border-t-transparent group-hover:before:border-r-transparent group-hover:before:border-b-black group-hover:before:border-l-transparent group-hover:before:border-8 group-hover:before:right-1/2 group-hover:before:-translate-x-1/2 group-hover:before:absolute group-hover:before:-top-3 group-hover:before:z-0;
+  }
+}
